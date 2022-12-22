@@ -1,0 +1,97 @@
+2022-12-22T13:45:26.600+03:00  INFO 8273 --- [restartedMain] c.a.t.TransferMoneyApplication           : Starting TransferMoneyApplication using Java 17.0.2 with PID 8273 (/Users/user/CoursTransferMoney/backand/transfer-money/target/classes started by user in /Users/user/CoursTransferMoney/backand/transfer-money)
+2022-12-22T13:45:26.607+03:00  INFO 8273 --- [restartedMain] c.a.t.TransferMoneyApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-12-22T13:45:26.693+03:00  INFO 8273 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-22T13:45:26.693+03:00  INFO 8273 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-22T13:45:28.416+03:00  INFO 8273 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 5500 (http)
+2022-12-22T13:45:28.429+03:00  INFO 8273 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-22T13:45:28.430+03:00  INFO 8273 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-22T13:45:28.501+03:00  INFO 8273 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-22T13:45:28.502+03:00  INFO 8273 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1808 ms
+2022-12-22T13:45:29.252+03:00  INFO 8273 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-22T13:45:29.258+03:00  INFO 8273 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-12-22T13:45:29.330+03:00  INFO 8273 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 5500 (http) with context path ''
+2022-12-22T13:45:29.348+03:00  INFO 8273 --- [restartedMain] c.a.t.TransferMoneyApplication           : Started TransferMoneyApplication in 3.408 seconds (process running for 6.281)
+2022-12-22T13:45:46.428+03:00  INFO 8273 --- [http-nio-5500-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-22T13:45:46.428+03:00  INFO 8273 --- [http-nio-5500-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-22T13:45:46.430+03:00  INFO 8273 --- [http-nio-5500-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-12-22T13:45:46.548+03:00  INFO 8273 --- [http-nio-5500-exec-1] c.a.t.controller.TransferController      : Id транзакии: 76898472, Карта отправителя = Карта{номер='1111111111111111', срок действия='12/26', CVV='132'}, Карта получателя = Карта{номер='2222222222222222'}, Информация о переводе = Сумма перевода=35131, Валюта='RUR', Комиссия=351.31
+2022-12-22T16:18:22.834+03:00  INFO 4385 --- [main] c.a.t.TransferMoneyApplicationTests      : Starting TransferMoneyApplicationTests using Java 18.0.1.1 with PID 4385 (started by user in /Users/user/CoursTransferMoney/backand/transfer-money)
+2022-12-22T16:18:22.842+03:00  INFO 4385 --- [main] c.a.t.TransferMoneyApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2022-12-22T16:18:28.626+03:00  INFO 4385 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-12-22T16:18:28.681+03:00  INFO 4385 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-22T16:18:28.694+03:00  INFO 4385 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-22T16:18:29.432+03:00  INFO 4385 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-22T16:18:29.437+03:00  INFO 4385 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6445 ms
+2022-12-22T16:18:32.740+03:00  INFO 4385 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-12-22T16:18:33.153+03:00  INFO 4385 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 50227 (http) with context path ''
+2022-12-22T16:18:33.220+03:00  INFO 4385 --- [main] c.a.t.TransferMoneyApplicationTests      : Started TransferMoneyApplicationTests in 12.221 seconds (process running for 17.523)
+2022-12-22T16:25:37.137+03:00  INFO 4964 --- [main] c.a.t.TransferMoneyApplicationTests      : Starting TransferMoneyApplicationTests using Java 18.0.1.1 with PID 4964 (started by user in /Users/user/CoursTransferMoney/backand/transfer-money)
+2022-12-22T16:25:37.143+03:00  INFO 4964 --- [main] c.a.t.TransferMoneyApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2022-12-22T16:25:40.268+03:00  INFO 4964 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-12-22T16:25:40.291+03:00  INFO 4964 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-22T16:25:40.292+03:00  INFO 4964 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-22T16:25:40.484+03:00  INFO 4964 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-22T16:25:40.485+03:00  INFO 4964 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3246 ms
+2022-12-22T16:25:41.805+03:00  INFO 4964 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-12-22T16:25:41.973+03:00  INFO 4964 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 50317 (http) with context path ''
+2022-12-22T16:25:42.000+03:00  INFO 4964 --- [main] c.a.t.TransferMoneyApplicationTests      : Started TransferMoneyApplicationTests in 5.917 seconds (process running for 8.83)
+2022-12-22T16:29:24.382+03:00  INFO 5273 --- [main] c.a.t.TransferMoneyApplicationTests      : Starting TransferMoneyApplicationTests using Java 18.0.1.1 with PID 5273 (started by user in /Users/user/CoursTransferMoney/backand/transfer-money)
+2022-12-22T16:29:24.385+03:00  INFO 5273 --- [main] c.a.t.TransferMoneyApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2022-12-22T16:29:27.375+03:00  INFO 5273 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-12-22T16:29:27.394+03:00  INFO 5273 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-22T16:29:27.395+03:00  INFO 5273 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-22T16:29:27.552+03:00  INFO 5273 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-22T16:29:27.553+03:00  INFO 5273 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3104 ms
+2022-12-22T16:29:28.861+03:00  INFO 5273 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-12-22T16:29:29.033+03:00  INFO 5273 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 50342 (http) with context path ''
+2022-12-22T16:29:29.062+03:00  INFO 5273 --- [main] c.a.t.TransferMoneyApplicationTests      : Started TransferMoneyApplicationTests in 5.511 seconds (process running for 9.214)
+2022-12-22T16:32:50.905+03:00  INFO 5497 --- [main] c.a.t.TransferMoneyApplicationTests      : Starting TransferMoneyApplicationTests using Java 18.0.1.1 with PID 5497 (started by user in /Users/user/CoursTransferMoney/backand/transfer-money)
+2022-12-22T16:32:50.917+03:00  INFO 5497 --- [main] c.a.t.TransferMoneyApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2022-12-22T16:33:18.749+03:00  INFO 5497 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-12-22T16:33:18.894+03:00  INFO 5497 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-22T16:33:18.896+03:00  INFO 5497 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-22T16:33:20.131+03:00  INFO 5497 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-22T16:33:20.133+03:00  INFO 5497 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 28870 ms
+2022-12-22T16:33:27.130+03:00  INFO 5497 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-12-22T16:33:28.019+03:00  INFO 5497 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 50383 (http) with context path ''
+2022-12-22T16:33:28.471+03:00  INFO 5497 --- [main] c.a.t.TransferMoneyApplicationTests      : Started TransferMoneyApplicationTests in 41.539 seconds (process running for 51.046)
+2022-12-22T16:34:01.687+03:00  INFO 5579 --- [main] c.a.t.TransferMoneyApplicationTests      : Starting TransferMoneyApplicationTests using Java 18.0.1.1 with PID 5579 (started by user in /Users/user/CoursTransferMoney/backand/transfer-money)
+2022-12-22T16:34:01.690+03:00  INFO 5579 --- [main] c.a.t.TransferMoneyApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2022-12-22T16:34:04.574+03:00  INFO 5579 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-12-22T16:34:04.597+03:00  INFO 5579 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-22T16:34:04.598+03:00  INFO 5579 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-22T16:34:04.815+03:00  INFO 5579 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-22T16:34:04.816+03:00  INFO 5579 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3074 ms
+2022-12-22T16:34:06.224+03:00  INFO 5579 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-12-22T16:34:06.427+03:00  INFO 5579 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 50390 (http) with context path ''
+2022-12-22T16:34:06.471+03:00  INFO 5579 --- [main] c.a.t.TransferMoneyApplicationTests      : Started TransferMoneyApplicationTests in 5.632 seconds (process running for 9.19)
+2022-12-22T16:36:51.494+03:00  INFO 5754 --- [main] c.a.t.TransferMoneyApplicationTests      : Starting TransferMoneyApplicationTests using Java 18.0.1.1 with PID 5754 (started by user in /Users/user/CoursTransferMoney/backand/transfer-money)
+2022-12-22T16:36:51.496+03:00  INFO 5754 --- [main] c.a.t.TransferMoneyApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2022-12-22T16:36:53.556+03:00  INFO 5754 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-12-22T16:36:53.572+03:00  INFO 5754 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-22T16:36:53.573+03:00  INFO 5754 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-22T16:36:53.711+03:00  INFO 5754 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-22T16:36:53.711+03:00  INFO 5754 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2179 ms
+2022-12-22T16:36:54.659+03:00  INFO 5754 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-12-22T16:36:54.777+03:00  INFO 5754 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 50404 (http) with context path ''
+2022-12-22T16:36:54.801+03:00  INFO 5754 --- [main] c.a.t.TransferMoneyApplicationTests      : Started TransferMoneyApplicationTests in 3.985 seconds (process running for 5.878)
+2022-12-22T16:38:54.220+03:00  INFO 5895 --- [main] c.a.t.TransferMoneyApplicationTests      : Starting TransferMoneyApplicationTests using Java 18.0.1.1 with PID 5895 (started by user in /Users/user/CoursTransferMoney/backand/transfer-money)
+2022-12-22T16:38:54.222+03:00  INFO 5895 --- [main] c.a.t.TransferMoneyApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2022-12-22T16:38:56.028+03:00  INFO 5895 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-12-22T16:38:56.041+03:00  INFO 5895 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-22T16:38:56.042+03:00  INFO 5895 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-22T16:38:56.160+03:00  INFO 5895 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-22T16:38:56.161+03:00  INFO 5895 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1895 ms
+2022-12-22T16:38:57.089+03:00  INFO 5895 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-12-22T16:38:57.193+03:00  INFO 5895 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 50420 (http) with context path ''
+2022-12-22T16:38:57.212+03:00  INFO 5895 --- [main] c.a.t.TransferMoneyApplicationTests      : Started TransferMoneyApplicationTests in 3.559 seconds (process running for 5.665)
+2022-12-22T16:39:44.586+03:00  INFO 5959 --- [main] c.a.t.TransferMoneyApplicationTests      : Starting TransferMoneyApplicationTests using Java 18.0.1.1 with PID 5959 (started by user in /Users/user/CoursTransferMoney/backand/transfer-money)
+2022-12-22T16:39:44.588+03:00  INFO 5959 --- [main] c.a.t.TransferMoneyApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2022-12-22T16:39:46.582+03:00  INFO 5959 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-12-22T16:39:46.598+03:00  INFO 5959 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-22T16:39:46.598+03:00  INFO 5959 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-22T16:39:46.741+03:00  INFO 5959 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-22T16:39:46.742+03:00  INFO 5959 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2111 ms
+2022-12-22T16:39:47.778+03:00  INFO 5959 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-12-22T16:39:47.892+03:00  INFO 5959 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 50434 (http) with context path ''
+2022-12-22T16:39:47.913+03:00  INFO 5959 --- [main] c.a.t.TransferMoneyApplicationTests      : Started TransferMoneyApplicationTests in 4.006 seconds (process running for 6.326)
